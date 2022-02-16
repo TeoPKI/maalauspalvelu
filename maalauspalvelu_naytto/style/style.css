@@ -1,0 +1,54 @@
+.fade-in {
+    animation: fadeIn ease 1s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.palette-container {
+    display: grid;
+    grid-template-columns: repeat(8,0fr);
+    grid-template-rows: repeat(4,0fr);
+    justify-content: center;
+}
+
+.palette-cell {
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+    margin: 1px;
+    border-width: 1px;
+    border-radius: 8px;
+}
+
+.thumbnail-200{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.fa {
+    padding: 25px;
+    font-size: 48px;
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+  
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
