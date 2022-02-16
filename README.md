@@ -1,2 +1,2 @@
 # maalauspalvelu
-Kuvitteellisen yrityksen verkosivut
+Website for imaginary company
