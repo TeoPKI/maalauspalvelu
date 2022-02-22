@@ -1,2 +1,2 @@
 # maalauspalvelu
-Website for imaginary company
+Website for imaginary company. School project.
